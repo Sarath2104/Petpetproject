@@ -9,21 +9,14 @@ import org.utility.BaseClass;
 
 import io.cucumber.java.en.*;
 
-public class FirstProjectStepDef extends BaseClass{
+public class FirstProjectStepDefLogin extends BaseClass{
 	
 	@Given("User should launch the chrome and load the url")
 	public void user_should_launch_the_chrome_and_load_the_url() {
 	   launchBrowser();
 	   launchUrl("https://us.patpat.com/");
 	   toMaximize();
-	   
-	   
-	   
-//	   Actions ac=new Actions(driver);
-//	   
-//	   WebElement qr = driver.findElement(By.xpath("class=\"iconfont close-icon icon-error\""));
-//	   
-//	   ac.moveToElement(qr).click().perform();
+	 
 	   
 	   
 	   

@@ -288,7 +288,11 @@ File f=new File("C:\\Users\\admin\\eclipse-workspace\\Frame\\Excel sheet\\datadr
 			
 		}
 	
-	
+	private void Inform() {
+		driver.manage().window().maximize();
+		System.out.println("Good Morning Sarath");
+
+	}
 
 	
 

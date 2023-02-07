@@ -41,6 +41,8 @@ public class BaseClass {
 	public static void launchBrowser() {
 		WebDriverManager.chromedriver().setup();
 		driver =new ChromeDriver();
+		
+		driver.manage().window().maximize();
 		}
 	// 2
 	public static void launchUrl(String url) {
@@ -283,7 +285,10 @@ File f=new File("C:\\Users\\admin\\eclipse-workspace\\Frame\\Excel sheet\\datadr
 				
 			}
 			return value;
+			
 		}
+	
+	
 
 	
 

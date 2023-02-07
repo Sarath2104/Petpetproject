@@ -286,7 +286,7 @@ File f=new File("C:\\Users\\admin\\eclipse-workspace\\Frame\\Excel sheet\\datadr
 		}
 	
 	private void Checking() {
-		System.out.println("Good day Master");
+		System.out.println("Good day master");
 
 	}
 	

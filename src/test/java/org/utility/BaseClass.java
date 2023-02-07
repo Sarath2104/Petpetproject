@@ -292,7 +292,7 @@ File f=new File("C:\\Users\\admin\\eclipse-workspace\\Frame\\Excel sheet\\datadr
 		driver.manage().window().maximize();
 		System.out.println("Good Morning Sarathkumar");
 		
-		System.out.println("Checking Sarath");
+		System.out.println("Checking Sarathkumar");
 
 }
 

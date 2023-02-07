@@ -22,6 +22,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriver.Navigation;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
@@ -287,6 +288,12 @@ File f=new File("C:\\Users\\admin\\eclipse-workspace\\Frame\\Excel sheet\\datadr
 			return value;
 			
 		}
+	private void ToNavigate() {
+		Navigation nv = driver.navigate();
+		System.out.println("Good morning Sivaranjani");
+
+	}
+	
 	
 	
 
